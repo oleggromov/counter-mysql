@@ -1,4 +1,10 @@
 [mysqld]
+# pulled out from docker config
+skip-host-cache
+skip-name-resolve
+# pulled from default config
+symbolic-links=0
+
 # only errors and warnings
 log_error_verbosity=2
 
